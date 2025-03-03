@@ -1,0 +1,11 @@
+git commit --ammend
+git fetch
+git stash
+git tag
+git rebase
+git cherry-pick
+git reflog
+git clean
+git hook 
+git bisect
+git worktree list
