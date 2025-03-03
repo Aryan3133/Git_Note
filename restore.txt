@@ -1,9 +1,19 @@
 git log
+
 <staged changes>
 git reset <file_name>
 git reset
+
 <commited>
 git reset HEAD~1
+
+<for resetting the code by 1 commit>
+git reset --hard HEAD~1
+
 <commited for certain>
-git reset <commit hadh>
+git reset <commit hash>
+
+<for resetting the code>
 git reset --hard <commit hash>
+
+without --hard only the log will change without any changes in the code 
