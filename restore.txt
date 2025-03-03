@@ -1,0 +1,9 @@
+git log
+<staged changes>
+git reset <file_name>
+git reset
+<commited>
+git reset HEAD~1
+<commited for certain>
+git reset <commit hadh>
+git reset --hard <commit hash>
