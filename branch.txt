@@ -6,3 +6,5 @@ git checkout -b <branch_name>(combination of creating and switch)
 git branch -d <>
 git switch <branch_name>
 git push origin <branch_name>
+git diff <>
+git merge<>
