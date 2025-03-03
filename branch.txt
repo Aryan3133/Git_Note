@@ -1,7 +1,8 @@
 git branch
-git branch -M main
+git branch -M main(rename)
 git branch <>
 git checkout <branch_name>
 git checkout -b <branch_name>(combination of creating and switch)
 git branch -d <>
 git switch <branch_name>
+git push origin <branch_name>
