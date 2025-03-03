@@ -1,0 +1,6 @@
+so it means when i have made 5 commits commits1,2,3,4,5 with 5 the latest, 
+the commit 1 added a new file named xyz and similarly each commit has added a new file , 
+if i reset to commit 1 all the file added will be removed but with revert only 
+the file added during commit 1 will be removed right
+
+git revert <commit hash>
