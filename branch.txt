@@ -10,3 +10,6 @@ git diff <>
 git merge <>
 git merge --quit
 git pull origin <branch_name>
+
+to delete a branch in the github
+git push origin --delete <branch name>
