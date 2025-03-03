@@ -1,4 +1,4 @@
 git init
 git remote add origin <link>
 git remote -v(to verify remote)
-git branch -M main (to rename branch)
+
