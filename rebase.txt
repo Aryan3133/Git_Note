@@ -1,0 +1,3 @@
+git rebase branchname
+
+if we have a main and a new branch without the commit of main,we can use rebase to linearly add the commit to the main
