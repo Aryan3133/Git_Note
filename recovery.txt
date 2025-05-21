@@ -1,0 +1,11 @@
+of we lose a commit when we are pushing the repo and the file corrupts then just delete the      
+ref/head folder in .git and runt git pull this must solve most of the problem.
+
+if not, when we lose some progress check for
+->git fsck[ghis shows the dangling blob and commit]
+we can create a branch with this commit
+git branch recovery <hash>
+or
+create a branch and git cherry-pick hash
+
+and merge or rebase 
